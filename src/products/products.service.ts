@@ -19,7 +19,7 @@ export class ProductsService {
     return this.databaseService.product.findUnique({
       where: {
         id,
-      }
+      },  
     })
   }
 
